@@ -1,0 +1,90 @@
+[
+  {
+    "$type": "Tfl.Api.Presentation.Entities.Line, Tfl.Api.Presentation.Entities",
+    "id": "waterloo-city",
+    "name": "Waterloo & City",
+    "modeName": "tube",
+    "disruptions": [],
+    "created": "2017-11-22T11:04:05.977Z",
+    "modified": "2017-11-22T11:04:05.977Z",
+    "lineStatuses": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineStatus, Tfl.Api.Presentation.Entities",
+        "id": 0,
+        "lineId": "waterloo-city",
+        "statusSeverity": 20,
+        "statusSeverityDescription": "Service Closed",
+        "reason": "Waterloo and City Line: Train service will resume at 06:00 on Monday. ",
+        "created": "0001-01-01T00:00:00",
+        "validityPeriods": [
+          {
+            "$type": "Tfl.Api.Presentation.Entities.ValidityPeriod, Tfl.Api.Presentation.Entities",
+            "fromDate": "2017-11-26T06:06:43Z",
+            "toDate": "2017-11-26T18:06:43Z",
+            "isNow": true
+          }
+        ],
+        "disruption": {
+          "$type": "Tfl.Api.Presentation.Entities.Disruption, Tfl.Api.Presentation.Entities",
+          "category": "RealTime",
+          "categoryDescription": "RealTime",
+          "description": "Waterloo and City Line: Train service will resume at 06:00 on Monday. ",
+          "affectedRoutes": [
+            {
+              "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+              "id": "2145",
+              "name": "Bank Underground Station - Waterloo Underground Station",
+              "direction": "inbound",
+              "originationName": "Bank Underground Station",
+              "destinationName": "Waterloo Underground Station",
+              "routeSectionNaptanEntrySequence": []
+            },
+            {
+              "$type": "Tfl.Api.Presentation.Entities.RouteSection, Tfl.Api.Presentation.Entities",
+              "id": "2150",
+              "name": "Waterloo Underground Station - Bank Underground Station",
+              "direction": "outbound",
+              "originationName": "Waterloo Underground Station",
+              "destinationName": "Bank Underground Station",
+              "routeSectionNaptanEntrySequence": []
+            }
+          ],
+          "affectedStops": [],
+          "closureText": "serviceClosed"
+        }
+      }
+    ],
+    "routeSections": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+        "name": "Bank Underground Station - Waterloo Underground Station",
+        "direction": "inbound",
+        "originationName": "Bank Underground Station",
+        "destinationName": "Waterloo Underground Station",
+        "originator": "940GZZLUBNK",
+        "destination": "940GZZLUWLO",
+        "serviceType": "Regular"
+      },
+      {
+        "$type": "Tfl.Api.Presentation.Entities.MatchedRoute, Tfl.Api.Presentation.Entities",
+        "name": "Waterloo Underground Station - Bank Underground Station",
+        "direction": "outbound",
+        "originationName": "Waterloo Underground Station",
+        "destinationName": "Bank Underground Station",
+        "originator": "940GZZLUWLO",
+        "destination": "940GZZLUBNK",
+        "serviceType": "Regular"
+      }
+    ],
+    "serviceTypes": [
+      {
+        "$type": "Tfl.Api.Presentation.Entities.LineServiceTypeInfo, Tfl.Api.Presentation.Entities",
+        "name": "Regular",
+        "uri": "/Line/Route?ids=Waterloo & City&serviceTypes=Regular"
+      }
+    ],
+    "crowding": {
+      "$type": "Tfl.Api.Presentation.Entities.Crowding, Tfl.Api.Presentation.Entities"
+    }
+  }
+]
