@@ -1,0 +1,1563 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`staionList should render a single station 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    containerStyle={
+        Object {
+            "marginBottom": 20,
+          }
+    }
+>
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="bakerloo"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+</List>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="bakerloo"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+      ],
+      "style": Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#bbb",
+          "borderTopWidth": 1,
+          "marginTop": 20,
+        },
+        Object {
+          "marginBottom": 20,
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "BAKERLOO",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "bakerloo",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="bakerloo"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+        ],
+        "style": Array [
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#bbb",
+            "borderTopWidth": 1,
+            "marginTop": 20,
+          },
+          Object {
+            "marginBottom": 20,
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "BAKERLOO",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "bakerloo",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`staionList should render all stations 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <List
+    containerStyle={
+        Object {
+            "marginBottom": 20,
+          }
+    }
+>
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="bakerloo"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="central"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="district"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="circle"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="hammersmith-city"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="jubilee"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="metropolitan"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="northern"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="piccadilly"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="victoria"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+    <ListItem
+        avatar={true}
+        chevronColor="#bdc6cf"
+        disabled={false}
+        hideChevron={false}
+        leftIconUnderlayColor="white"
+        rightIcon={
+            Object {
+                "name": "chevron-right",
+              }
+        }
+        rightTitleNumberOfLines={1}
+        roundAvatar={true}
+        selectedBackgroundColor="grey"
+        subtitleNumberOfLines={1}
+        switchButton={false}
+        textInputEditable={true}
+        title="waterloo-city"
+        titleNumberOfLines={1}
+        underlayColor="white"
+    />
+</List>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="bakerloo"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="central"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="district"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="circle"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="hammersmith-city"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="jubilee"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="metropolitan"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="northern"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="piccadilly"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="victoria"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+        <ListItem
+          avatar={true}
+          chevronColor="#bdc6cf"
+          disabled={false}
+          hideChevron={false}
+          leftIconUnderlayColor="white"
+          rightIcon={
+                    Object {
+                              "name": "chevron-right",
+                            }
+          }
+          rightTitleNumberOfLines={1}
+          roundAvatar={true}
+          selectedBackgroundColor="grey"
+          subtitleNumberOfLines={1}
+          switchButton={false}
+          textInputEditable={true}
+          title="waterloo-city"
+          titleNumberOfLines={1}
+          underlayColor="white"
+/>,
+      ],
+      "style": Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#bbb",
+          "borderTopWidth": 1,
+          "marginTop": 20,
+        },
+        Object {
+          "marginBottom": 20,
+        },
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "BAKERLOO",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "bakerloo",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "CENTRAL",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "central",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "DISTRICT",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "district",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "CIRCLE",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "circle",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "HAMMERSMITH",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "hammersmith-city",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "JUBILEE",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "jubilee",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "METROPOLITAN",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "metropolitan",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "NORTHERN",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "northern",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "PICCADILLY",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "piccadilly",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "VICTORIA",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "victoria",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "WATERLOO",
+        "nodeType": "function",
+        "props": Object {
+          "avatar": true,
+          "chevronColor": "#bdc6cf",
+          "disabled": false,
+          "hideChevron": false,
+          "leftIconUnderlayColor": "white",
+          "rightIcon": Object {
+            "name": "chevron-right",
+          },
+          "rightTitleNumberOfLines": 1,
+          "roundAvatar": true,
+          "selectedBackgroundColor": "grey",
+          "subtitleNumberOfLines": 1,
+          "switchButton": false,
+          "textInputEditable": true,
+          "title": "waterloo-city",
+          "titleNumberOfLines": 1,
+          "underlayColor": "white",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="bakerloo"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="central"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="district"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="circle"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="hammersmith-city"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="jubilee"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="metropolitan"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="northern"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="piccadilly"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="victoria"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+          <ListItem
+            avatar={true}
+            chevronColor="#bdc6cf"
+            disabled={false}
+            hideChevron={false}
+            leftIconUnderlayColor="white"
+            rightIcon={
+                        Object {
+                                    "name": "chevron-right",
+                                  }
+            }
+            rightTitleNumberOfLines={1}
+            roundAvatar={true}
+            selectedBackgroundColor="grey"
+            subtitleNumberOfLines={1}
+            switchButton={false}
+            textInputEditable={true}
+            title="waterloo-city"
+            titleNumberOfLines={1}
+            underlayColor="white"
+/>,
+        ],
+        "style": Array [
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#bbb",
+            "borderTopWidth": 1,
+            "marginTop": 20,
+          },
+          Object {
+            "marginBottom": 20,
+          },
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "BAKERLOO",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "bakerloo",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "CENTRAL",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "central",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "DISTRICT",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "district",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "CIRCLE",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "circle",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "HAMMERSMITH",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "hammersmith-city",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "JUBILEE",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "jubilee",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "METROPOLITAN",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "metropolitan",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "NORTHERN",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "northern",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "PICCADILLY",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "piccadilly",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "VICTORIA",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "victoria",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "WATERLOO",
+          "nodeType": "function",
+          "props": Object {
+            "avatar": true,
+            "chevronColor": "#bdc6cf",
+            "disabled": false,
+            "hideChevron": false,
+            "leftIconUnderlayColor": "white",
+            "rightIcon": Object {
+              "name": "chevron-right",
+            },
+            "rightTitleNumberOfLines": 1,
+            "roundAvatar": true,
+            "selectedBackgroundColor": "grey",
+            "subtitleNumberOfLines": 1,
+            "switchButton": false,
+            "textInputEditable": true,
+            "title": "waterloo-city",
+            "titleNumberOfLines": 1,
+            "underlayColor": "white",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

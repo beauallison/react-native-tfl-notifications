@@ -4,5 +4,8 @@ module.exports = {
     "react-native/react-native": true,
     "jest": true
   },
-  plugins: ["react", "react-native"]
+  plugins: ["react", "react-native"],
+  rules: {
+    "react/jsx-filename-extension": "off"
+  }
 };
