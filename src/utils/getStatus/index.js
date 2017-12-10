@@ -1,7 +1,7 @@
 // GET /Line/{ids}/Status
 // https://api.tfl.gov.uk/Line/{id}/Status
 import _ from 'lodash';
-import { API } from '../../config';
+import { API } from '../../../config';
 
 module.exports = async (line) => {
   const response = await fetch(`${API}/Line/${line}/Status?detail=true`);

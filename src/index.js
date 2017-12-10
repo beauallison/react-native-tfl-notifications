@@ -1,20 +1,14 @@
-import _ from 'lodash';
 import React from 'react';
-import { StyleSheet } from 'react-native';
-import getStatus from './getStatus';
+import { Text } from 'react-native';
+import { getStations } from './utils';
 import stationList from './components/stationList';
 
-import { LINES } from '../constants';
-
-const stations = _.map(LINES.TUBE, (station, ID) => ({
-  ID,
-  station,
-}));
+const { LINES: { TUBE } } = require('../constants');
 
 export default class App extends React.Component {
   constructor() {
     super();
-    this.state = { status: 'Fetching' };
+    this.state = { isLoading: true, status: 'Loading' };
   }
 
   componentDidMount() {
@@ -23,25 +17,21 @@ export default class App extends React.Component {
 
   async fetchData() {
     try {
-      const { status } = await getStatus('northern');
-      this.setState({ status });
+      const stations = await getStations(TUBE);
+
+      this.setState({ isLoading: false, stations });
     } catch (err) {
-      this.setState({ status: 'Failed to fetch network request' });
+      this.setState({ status: 'Network error' });
     }
   }
 
   render() {
+    if (this.state.isLoading) {
+      return (<Text>{this.state.status}</Text>);
+    }
+
     return (
-      stationList({ stations })
+      stationList({ stations: this.state.stations })
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

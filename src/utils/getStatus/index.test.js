@@ -1,6 +1,6 @@
-const getStatus = require('./');
-const fixtures = require('./fixtures');
-const { LINES: { TUBE } } = require('../../constants');
+const getStatus = require('./index');
+const fixtures = require('../fixtures');
+const { LINES: { TUBE } } = require('../../../constants');
 
 describe('getStatus()', () => {
   it('should return Nothern line data', async () => {

@@ -7,6 +7,7 @@ import { LINES } from '../../../constants';
 const allStations = _.map(LINES.TUBE, (station, ID) => ({
   ID,
   station,
+  status: 'Good service',
 }));
 
 describe('staionList', () => {
