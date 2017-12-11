@@ -1,5 +1,5 @@
-import _ from 'lodash';
-import getStatus from '../getStatus';
+const _ = require('lodash');
+const getStatus = require('../getStatus');
 
 module.exports = async stations =>
   Promise.all(_.keys(stations).map(async (ID) => {

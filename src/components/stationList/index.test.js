@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import { shallow } from 'enzyme';
-
 import stationList from './index';
 import { LINES } from '../../../constants';
 
