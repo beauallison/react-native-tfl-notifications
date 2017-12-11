@@ -24,9 +24,10 @@
     "flow": "flow",
     "ios": "react-native-scripts ios",
     "start": "react-native-scripts start",
-    "test": "node node_modules/jest/bin/jest.js --coverage"
+    "test": "npx jest"
   },
   "jest": {
+    "collectCoverage": true,
     "preset": "jest-expo",
     "automock": false,
     "setupFiles": [
