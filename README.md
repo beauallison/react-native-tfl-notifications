@@ -1,4 +1,6 @@
 # Transport for London Notifications - React Native
+<img src="https://travis-ci.org/beauallison/react-native-tfl-notifications.svg?branch=add-travis">
+
 This repo is for a Transport for London application built built with React Native for Android and iOS.
 
 This project is a work in progress.
