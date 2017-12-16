@@ -1,6 +1,7 @@
 import _ from 'lodash';
+import React from 'react';
 import { shallow } from 'enzyme';
-import stationList from './index';
+import StationList from './index';
 import { LINES } from '../../../constants';
 
 const allStations = _.map(LINES.TUBE, (station, ID) => ({
@@ -9,16 +10,14 @@ const allStations = _.map(LINES.TUBE, (station, ID) => ({
   status: 'Good service',
 }));
 
-describe('staionList', () => {
-  it('should render a single station', () => {
-    const stations = [allStations[0]];
+describe('stationList', () => {
+  it('should render a flatList', async () => {
+    const onRefresh = Promise.resolve([allStations[0]]);
+    const wrapper = shallow(<StationList data={allStations} onRefresh={onRefresh} />);
 
-    const wrapper = shallow(stationList({ stations }));
-    expect(wrapper).toMatchSnapshot();
-  });
+    const flatList = wrapper.find('FlatList').get(0);
+    await flatList.props.onRefresh();
 
-  it('should render all stations', () => {
-    const wrapper = shallow(stationList({ stations: allStations }));
-    expect(wrapper).toMatchSnapshot();
+    expect(flatList).toMatchSnapshot();
   });
 });
