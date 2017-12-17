@@ -1,8 +1,7 @@
-import _ from 'lodash';
 import React, { Component } from 'react';
-import { FlatList } from 'react-native';
-import { ListItem } from 'react-native-elements';
 import propTypes from 'prop-types';
+import { FlatList } from 'react-native';
+import { keyExtractor, renderItem } from './utils';
 
 class StationList extends Component {
   constructor(props) {
@@ -28,13 +27,8 @@ class StationList extends Component {
         onRefresh={() => this.refresh()}
         refreshing={this.state.isRefreshing}
         data={this.state.data}
-        keyExtractor={item => item.ID}
-        renderItem={({ item: { station, status } }) =>
-          (<ListItem
-            title={`${_.startCase(station)} - ${status}`}
-            selectedBackgroundColor="grey"
-          />)
-        }
+        keyExtractor={keyExtractor}
+        renderItem={renderItem}
       />
     );
   }

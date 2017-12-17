@@ -10,7 +10,7 @@ const allStations = _.map(LINES.TUBE, (station, ID) => ({
   status: 'Good service',
 }));
 
-describe('stationList', () => {
+describe('components/stationList', () => {
   it('should render a flatList', async () => {
     const onRefresh = Promise.resolve([allStations[0]]);
     const wrapper = shallow(<StationList data={allStations} onRefresh={onRefresh} />);

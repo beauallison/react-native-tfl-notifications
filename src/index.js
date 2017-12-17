@@ -1,8 +1,11 @@
 import React from 'react';
-import StationList from './components/stationList';
-import { getStations } from './utils';
-import { LINES } from '../constants';
+import { View, StatusBar } from 'react-native';
+import Navigation from './components/navigation';
 
 export default () => (
-  <StationList onRefresh={getStations(LINES.TUBE)} />
-);
+  <View flex={1}>
+    <StatusBar
+      hidden
+    />
+    <Navigation />
+  </View>);

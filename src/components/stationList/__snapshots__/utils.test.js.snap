@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/stationList/utils renderItem should render an item 1`] = `
+<StationItem
+  station="bakerloo"
+  status="Good Service"
+/>
+`;

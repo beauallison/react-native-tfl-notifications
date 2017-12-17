@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/navigation should render navigation 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <NavigationContainer />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "navigation": Object {
+        "dispatch": [Function],
+        "goBack": [Function],
+        "navigate": [Function],
+        "setParams": [Function],
+        "state": Object {
+          "index": 0,
+          "routes": Array [
+            Object {
+              "key": "Tube",
+              "routeName": "Tube",
+            },
+            Object {
+              "key": "Notifications",
+              "routeName": "Notifications",
+            },
+          ],
+        },
+      },
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "navigation": Object {
+          "dispatch": [Function],
+          "goBack": [Function],
+          "navigate": [Function],
+          "setParams": [Function],
+          "state": Object {
+            "index": 0,
+            "routes": Array [
+              Object {
+                "key": "Tube",
+                "routeName": "Tube",
+              },
+              Object {
+                "key": "Notifications",
+                "routeName": "Notifications",
+              },
+            ],
+          },
+        },
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`components/navigation should render the Tube screen 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StationList
+    data={undefined}
+    onRefresh={
+        Promise {
+            "_40": 1,
+            "_55": null,
+            "_65": 0,
+            "_72": Handler {
+              "onFulfilled": [Function],
+              "onRejected": [Function],
+              "promise": Promise {
+                "_40": 0,
+                "_55": null,
+                "_65": 0,
+                "_72": null,
+              },
+            },
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "data": undefined,
+      "disableVirtualization": false,
+      "horizontal": false,
+      "initialNumToRender": 10,
+      "keyExtractor": [Function],
+      "maxToRenderPerBatch": 10,
+      "numColumns": 1,
+      "onEndReachedThreshold": 2,
+      "onRefresh": [Function],
+      "refreshing": true,
+      "renderItem": [Function],
+      "scrollEventThrottle": 50,
+      "updateCellsBatchingPeriod": 50,
+      "windowSize": 21,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "data": undefined,
+        "disableVirtualization": false,
+        "horizontal": false,
+        "initialNumToRender": 10,
+        "keyExtractor": [Function],
+        "maxToRenderPerBatch": 10,
+        "numColumns": 1,
+        "onEndReachedThreshold": 2,
+        "onRefresh": [Function],
+        "refreshing": true,
+        "renderItem": [Function],
+        "scrollEventThrottle": 50,
+        "updateCellsBatchingPeriod": 50,
+        "windowSize": 21,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`stationList should render a flatList 1`] = `
+exports[`components/stationList should render a flatList 1`] = `
 <FlatList
   data={undefined}
   disableVirtualization={false}
