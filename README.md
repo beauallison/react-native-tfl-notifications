@@ -2,8 +2,7 @@
 
 ![Build Status][badgeBuild] ![Coverage Status][badgeCov]
 
-
-This repo is for a Transport for London application built built with React Native for Android and iOS.
+This repo is for a Transport for London application built with React Native for Android and iOS.
 
 This project is a work in progress.
 

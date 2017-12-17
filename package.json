@@ -14,13 +14,11 @@
     "jest-expo": "^22.0.0",
     "jest-fetch-mock": "^1.3.3",
     "react-dom": "^16.2.0",
-    "react-native-scripts": "1.7.0",
-    "react-test-renderer": "^16.2.0"
+    "react-native-scripts": "1.7.0"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "android": "react-native-scripts android",
-    "eject": "react-native-scripts eject",
     "flow": "flow",
     "ios": "react-native-scripts ios",
     "start": "react-native-scripts start",
