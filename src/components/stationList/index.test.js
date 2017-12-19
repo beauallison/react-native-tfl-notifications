@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import StationList from './index';
 import { LINES } from '../../../constants';
 
-const allStations = _.map(LINES.TUBE, (station, ID) => ({
+const allStations = _.map(LINES, (station, ID) => ({
   ID,
   station,
   status: 'Good service',

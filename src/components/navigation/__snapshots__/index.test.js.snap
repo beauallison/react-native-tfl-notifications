@@ -26,8 +26,8 @@ ShallowWrapper {
           "index": 0,
           "routes": Array [
             Object {
-              "key": "Tube",
-              "routeName": "Tube",
+              "key": "Lines",
+              "routeName": "Lines",
             },
             Object {
               "key": "Notifications",
@@ -56,8 +56,8 @@ ShallowWrapper {
             "index": 0,
             "routes": Array [
               Object {
-                "key": "Tube",
-                "routeName": "Tube",
+                "key": "Lines",
+                "routeName": "Lines",
               },
               Object {
                 "key": "Notifications",
@@ -82,7 +82,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`components/navigation should render the Tube screen 1`] = `
+exports[`components/navigation should render the Lines screen 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],

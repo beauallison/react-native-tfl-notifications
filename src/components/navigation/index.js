@@ -5,16 +5,16 @@ import StationList from '../stationList';
 import { getStations } from '../../utils';
 import { LINES } from '../../../constants';
 
-export const TubeScreen =
-  () => (<StationList onRefresh={getStations(LINES.TUBE)} />);
+export const LinesScreen =
+  () => (<StationList onRefresh={getStations(LINES)} />);
 
 export default TabNavigator(
   {
-    Tube: {
-      screen: TubeScreen,
+    Lines: {
+      screen: LinesScreen,
     },
     Notifications: {
-      screen: TubeScreen,
+      screen: LinesScreen,
     },
   },
   {
