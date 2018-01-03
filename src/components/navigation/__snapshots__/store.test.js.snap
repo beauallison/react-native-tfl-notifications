@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/navigation/store should return the notifications store 1`] = `
+Array [
+  Object {
+    "ID": "BAKERLOO",
+    "onValueChange": [Function],
+    "station": "bakerloo",
+  },
+  Object {
+    "ID": "CENTRAL",
+    "onValueChange": [Function],
+    "station": "central",
+  },
+  Object {
+    "ID": "DISTRICT",
+    "onValueChange": [Function],
+    "station": "district",
+  },
+  Object {
+    "ID": "CIRCLE",
+    "onValueChange": [Function],
+    "station": "circle",
+  },
+  Object {
+    "ID": "HAMMERSMITH",
+    "onValueChange": [Function],
+    "station": "hammersmith-city",
+  },
+  Object {
+    "ID": "JUBILEE",
+    "onValueChange": [Function],
+    "station": "jubilee",
+  },
+  Object {
+    "ID": "LONDON",
+    "onValueChange": [Function],
+    "station": "london-overground",
+  },
+  Object {
+    "ID": "METROPOLITAN",
+    "onValueChange": [Function],
+    "station": "metropolitan",
+  },
+  Object {
+    "ID": "NORTHERN",
+    "onValueChange": [Function],
+    "station": "northern",
+  },
+  Object {
+    "ID": "PICCADILLY",
+    "onValueChange": [Function],
+    "station": "piccadilly",
+  },
+  Object {
+    "ID": "VICTORIA",
+    "onValueChange": [Function],
+    "station": "victoria",
+  },
+  Object {
+    "ID": "WATERLOO",
+    "onValueChange": [Function],
+    "station": "waterloo-city",
+  },
+]
+`;

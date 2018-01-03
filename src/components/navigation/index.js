@@ -1,12 +1,18 @@
+import _ from 'lodash';
 import React from 'react';
 import { TabNavigator } from 'react-navigation';
 
 import StationList from '../stationList';
+import NotificationsList from '../notificationsList';
 import { getStations } from '../../utils';
 import { LINES } from '../../../constants';
+import store from './store';
 
 export const LinesScreen =
   () => (<StationList onRefresh={getStations(LINES)} />);
+
+export const NotificationScreen =
+  () => (<NotificationsList data={store} />);
 
 export default TabNavigator(
   {
@@ -14,7 +20,7 @@ export default TabNavigator(
       screen: LinesScreen,
     },
     Notifications: {
-      screen: LinesScreen,
+      screen: NotificationScreen,
     },
   },
   {

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/notificationsList/utils renderItem should render an item 1`] = `
+<NotificationsToggle
+  enabled={false}
+  onValueChange={[Function]}
+  station="London"
+/>
+`;
