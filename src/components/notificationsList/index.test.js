@@ -8,7 +8,7 @@ describe('components/notificationsList', () => {
   const data = _.map(LINES, (station, ID) => ({
     ID,
     station,
-    onValueChange: (input => Promise.resolve(!input)),
+    onPress: (() => Promise.resolve(true)),
   }));
 
   it('should render notifications List', () => {

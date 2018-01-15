@@ -10,7 +10,7 @@ describe('components/notificationsList/utils', () => {
     it('should render an item', () => {
       const item = {
         station: 'London',
-        onValueChange: value => Promise.resolve(!value),
+        updateStation: () => { },
       };
 
       const render = renderItem({ item });

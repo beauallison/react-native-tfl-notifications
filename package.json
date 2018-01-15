@@ -22,7 +22,8 @@
     "flow": "flow",
     "ios": "react-native-scripts ios",
     "start": "react-native-scripts start",
-    "test": "npx jest"
+    "test": "npx jest",
+    "test:watch": "npx jest --watchAll"
   },
   "jest": {
     "collectCoverage": true,

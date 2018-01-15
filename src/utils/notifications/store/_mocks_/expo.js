@@ -9,4 +9,7 @@ module.exports = {
       store[path] = contents;
     },
   },
+  Notifications: {
+    getExpoPushTokenAsync: () => 'ExpoPushToken[xxxxxxxxxxxxxxxxxxxxxx]',
+  },
 };
