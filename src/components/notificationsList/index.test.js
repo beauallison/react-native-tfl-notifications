@@ -12,7 +12,7 @@ describe('components/notificationsList', () => {
   }));
 
   it('should render notifications List', () => {
-    const wrapper = shallow(<NotificationsList data={data} />);
+    const wrapper = shallow(<NotificationsList data={data} save={() => { }} />);
     expect(wrapper).toMatchSnapshot();
   });
 });

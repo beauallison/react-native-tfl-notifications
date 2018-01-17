@@ -15,4 +15,11 @@ describe('components/navigation/store', () => {
     const output = await save();
     expect(output).toEqual('OK');
   });
+
+  it('should catch save errors', async () => {
+    fetch.mockReject(new Error('Unhandled data'));
+
+    const output = await save();
+    expect(output).toEqual(undefined);
+  });
 });

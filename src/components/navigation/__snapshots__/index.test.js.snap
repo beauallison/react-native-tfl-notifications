@@ -254,6 +254,7 @@ ShallowWrapper {
             },
           ]
     }
+    save={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -267,94 +268,213 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "data": Array [
-        Object {
-          "ID": "BAKERLOO",
-          "enabled": undefined,
-          "station": "bakerloo",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "CENTRAL",
-          "enabled": undefined,
-          "station": "central",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "DISTRICT",
-          "enabled": undefined,
-          "station": "district",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "CIRCLE",
-          "enabled": undefined,
-          "station": "circle",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "HAMMERSMITH",
-          "enabled": undefined,
-          "station": "hammersmith-city",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "JUBILEE",
-          "enabled": undefined,
-          "station": "jubilee",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "LONDON",
-          "enabled": undefined,
-          "station": "london-overground",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "METROPOLITAN",
-          "enabled": undefined,
-          "station": "metropolitan",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "NORTHERN",
-          "enabled": undefined,
-          "station": "northern",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "PICCADILLY",
-          "enabled": undefined,
-          "station": "piccadilly",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "VICTORIA",
-          "enabled": undefined,
-          "station": "victoria",
-          "updateStation": [Function],
-        },
-        Object {
-          "ID": "WATERLOO",
-          "enabled": undefined,
-          "station": "waterloo-city",
-          "updateStation": [Function],
-        },
+      "children": Array [
+        <FlatList
+          data={
+                    Array [
+                              Object {
+                                "ID": "BAKERLOO",
+                                "enabled": undefined,
+                                "station": "bakerloo",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "CENTRAL",
+                                "enabled": undefined,
+                                "station": "central",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "DISTRICT",
+                                "enabled": undefined,
+                                "station": "district",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "CIRCLE",
+                                "enabled": undefined,
+                                "station": "circle",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "HAMMERSMITH",
+                                "enabled": undefined,
+                                "station": "hammersmith-city",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "JUBILEE",
+                                "enabled": undefined,
+                                "station": "jubilee",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "LONDON",
+                                "enabled": undefined,
+                                "station": "london-overground",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "METROPOLITAN",
+                                "enabled": undefined,
+                                "station": "metropolitan",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "NORTHERN",
+                                "enabled": undefined,
+                                "station": "northern",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "PICCADILLY",
+                                "enabled": undefined,
+                                "station": "piccadilly",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "VICTORIA",
+                                "enabled": undefined,
+                                "station": "victoria",
+                                "updateStation": [Function],
+                              },
+                              Object {
+                                "ID": "WATERLOO",
+                                "enabled": undefined,
+                                "station": "waterloo-city",
+                                "updateStation": [Function],
+                              },
+                            ]
+          }
+          disableVirtualization={false}
+          horizontal={false}
+          initialNumToRender={10}
+          keyExtractor={[Function]}
+          maxToRenderPerBatch={10}
+          numColumns={1}
+          onEndReachedThreshold={2}
+          renderItem={[Function]}
+          scrollEventThrottle={50}
+          updateCellsBatchingPeriod={50}
+          windowSize={21}
+/>,
+        <SaveButton
+          onPress={[Function]}
+/>,
       ],
-      "disableVirtualization": false,
-      "horizontal": false,
-      "initialNumToRender": 10,
-      "keyExtractor": [Function],
-      "maxToRenderPerBatch": 10,
-      "numColumns": 1,
-      "onEndReachedThreshold": 2,
-      "renderItem": [Function],
-      "scrollEventThrottle": 50,
-      "updateCellsBatchingPeriod": 50,
-      "windowSize": 21,
+      "style": Object {
+        "flex": 1,
+      },
     },
     "ref": null,
-    "rendered": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "data": Array [
+            Object {
+              "ID": "BAKERLOO",
+              "enabled": undefined,
+              "station": "bakerloo",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "CENTRAL",
+              "enabled": undefined,
+              "station": "central",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "DISTRICT",
+              "enabled": undefined,
+              "station": "district",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "CIRCLE",
+              "enabled": undefined,
+              "station": "circle",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "HAMMERSMITH",
+              "enabled": undefined,
+              "station": "hammersmith-city",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "JUBILEE",
+              "enabled": undefined,
+              "station": "jubilee",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "LONDON",
+              "enabled": undefined,
+              "station": "london-overground",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "METROPOLITAN",
+              "enabled": undefined,
+              "station": "metropolitan",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "NORTHERN",
+              "enabled": undefined,
+              "station": "northern",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "PICCADILLY",
+              "enabled": undefined,
+              "station": "piccadilly",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "VICTORIA",
+              "enabled": undefined,
+              "station": "victoria",
+              "updateStation": [Function],
+            },
+            Object {
+              "ID": "WATERLOO",
+              "enabled": undefined,
+              "station": "waterloo-city",
+              "updateStation": [Function],
+            },
+          ],
+          "disableVirtualization": false,
+          "horizontal": false,
+          "initialNumToRender": 10,
+          "keyExtractor": [Function],
+          "maxToRenderPerBatch": 10,
+          "numColumns": 1,
+          "onEndReachedThreshold": 2,
+          "renderItem": [Function],
+          "scrollEventThrottle": 50,
+          "updateCellsBatchingPeriod": 50,
+          "windowSize": 21,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "onPress": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -363,94 +483,213 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "data": Array [
-          Object {
-            "ID": "BAKERLOO",
-            "enabled": undefined,
-            "station": "bakerloo",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "CENTRAL",
-            "enabled": undefined,
-            "station": "central",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "DISTRICT",
-            "enabled": undefined,
-            "station": "district",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "CIRCLE",
-            "enabled": undefined,
-            "station": "circle",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "HAMMERSMITH",
-            "enabled": undefined,
-            "station": "hammersmith-city",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "JUBILEE",
-            "enabled": undefined,
-            "station": "jubilee",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "LONDON",
-            "enabled": undefined,
-            "station": "london-overground",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "METROPOLITAN",
-            "enabled": undefined,
-            "station": "metropolitan",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "NORTHERN",
-            "enabled": undefined,
-            "station": "northern",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "PICCADILLY",
-            "enabled": undefined,
-            "station": "piccadilly",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "VICTORIA",
-            "enabled": undefined,
-            "station": "victoria",
-            "updateStation": [Function],
-          },
-          Object {
-            "ID": "WATERLOO",
-            "enabled": undefined,
-            "station": "waterloo-city",
-            "updateStation": [Function],
-          },
+        "children": Array [
+          <FlatList
+            data={
+                        Array [
+                                    Object {
+                                      "ID": "BAKERLOO",
+                                      "enabled": undefined,
+                                      "station": "bakerloo",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "CENTRAL",
+                                      "enabled": undefined,
+                                      "station": "central",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "DISTRICT",
+                                      "enabled": undefined,
+                                      "station": "district",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "CIRCLE",
+                                      "enabled": undefined,
+                                      "station": "circle",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "HAMMERSMITH",
+                                      "enabled": undefined,
+                                      "station": "hammersmith-city",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "JUBILEE",
+                                      "enabled": undefined,
+                                      "station": "jubilee",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "LONDON",
+                                      "enabled": undefined,
+                                      "station": "london-overground",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "METROPOLITAN",
+                                      "enabled": undefined,
+                                      "station": "metropolitan",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "NORTHERN",
+                                      "enabled": undefined,
+                                      "station": "northern",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "PICCADILLY",
+                                      "enabled": undefined,
+                                      "station": "piccadilly",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "VICTORIA",
+                                      "enabled": undefined,
+                                      "station": "victoria",
+                                      "updateStation": [Function],
+                                    },
+                                    Object {
+                                      "ID": "WATERLOO",
+                                      "enabled": undefined,
+                                      "station": "waterloo-city",
+                                      "updateStation": [Function],
+                                    },
+                                  ]
+            }
+            disableVirtualization={false}
+            horizontal={false}
+            initialNumToRender={10}
+            keyExtractor={[Function]}
+            maxToRenderPerBatch={10}
+            numColumns={1}
+            onEndReachedThreshold={2}
+            renderItem={[Function]}
+            scrollEventThrottle={50}
+            updateCellsBatchingPeriod={50}
+            windowSize={21}
+/>,
+          <SaveButton
+            onPress={[Function]}
+/>,
         ],
-        "disableVirtualization": false,
-        "horizontal": false,
-        "initialNumToRender": 10,
-        "keyExtractor": [Function],
-        "maxToRenderPerBatch": 10,
-        "numColumns": 1,
-        "onEndReachedThreshold": 2,
-        "renderItem": [Function],
-        "scrollEventThrottle": 50,
-        "updateCellsBatchingPeriod": 50,
-        "windowSize": 21,
+        "style": Object {
+          "flex": 1,
+        },
       },
       "ref": null,
-      "rendered": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data": Array [
+              Object {
+                "ID": "BAKERLOO",
+                "enabled": undefined,
+                "station": "bakerloo",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "CENTRAL",
+                "enabled": undefined,
+                "station": "central",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "DISTRICT",
+                "enabled": undefined,
+                "station": "district",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "CIRCLE",
+                "enabled": undefined,
+                "station": "circle",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "HAMMERSMITH",
+                "enabled": undefined,
+                "station": "hammersmith-city",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "JUBILEE",
+                "enabled": undefined,
+                "station": "jubilee",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "LONDON",
+                "enabled": undefined,
+                "station": "london-overground",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "METROPOLITAN",
+                "enabled": undefined,
+                "station": "metropolitan",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "NORTHERN",
+                "enabled": undefined,
+                "station": "northern",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "PICCADILLY",
+                "enabled": undefined,
+                "station": "piccadilly",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "VICTORIA",
+                "enabled": undefined,
+                "station": "victoria",
+                "updateStation": [Function],
+              },
+              Object {
+                "ID": "WATERLOO",
+                "enabled": undefined,
+                "station": "waterloo-city",
+                "updateStation": [Function],
+              },
+            ],
+            "disableVirtualization": false,
+            "horizontal": false,
+            "initialNumToRender": 10,
+            "keyExtractor": [Function],
+            "maxToRenderPerBatch": 10,
+            "numColumns": 1,
+            "onEndReachedThreshold": 2,
+            "renderItem": [Function],
+            "scrollEventThrottle": 50,
+            "updateCellsBatchingPeriod": 50,
+            "windowSize": 21,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "onPress": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": [Function],
     },
   ],

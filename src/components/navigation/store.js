@@ -22,4 +22,5 @@ export default _.map(LINES, (station, ID) => ({
   updateStation: input => updateStation(station, input),
 }));
 
-export const save = () => update(Store);
+export const save = () => update(Store)
+  .catch(() => undefined);
