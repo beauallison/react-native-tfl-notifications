@@ -2,9 +2,10 @@
 
 ![Build Status][badgeBuild] ![Coverage Status][badgeCov]
 
-This repo is for a Transport for London application built with React Native for Android and iOS.
-
 This project is a work in progress.
+
+This repo is for a Transport for London application built with React Native for Android and iOS. It works in conjunction with the [TFL Notification Server][tfl-notification-server].
+
 
 ## Intro
 
@@ -228,5 +229,7 @@ If you're not able to scan the QR code, make sure your phone's camera is focusin
 If this causes problems for you, you may want to try changing your terminal's color theme to have more contrast, or running Create React Native App from a different terminal. You can also manually enter the URL printed by the packager script in the Expo app's search bar to load it manually.
 
 <!-- Links -->
+[tfl-notification-server]: https://github.com/beauallison/tfl-notification-server
+
 [badgeBuild]: https://travis-ci.org/beauallison/react-native-tfl-notifications.svg?branch=add-travis
 [badgeCov]: https://coveralls.io/repos/github/beauallison/react-native-tfl-notifications/badge.svg?branch=add-coveralls
