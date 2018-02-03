@@ -231,5 +231,5 @@ If this causes problems for you, you may want to try changing your terminal's co
 <!-- Links -->
 [tfl-notification-server]: https://github.com/beauallison/tfl-notification-server
 
-[badgeBuild]: https://travis-ci.org/beauallison/react-native-tfl-notifications.svg?branch=add-travis
-[badgeCov]: https://coveralls.io/repos/github/beauallison/react-native-tfl-notifications/badge.svg?branch=add-coveralls
+[badgeBuild]: https://travis-ci.org/beauallison/react-native-tfl-notifications.svg?branch=master
+[badgeCov]: https://coveralls.io/repos/github/beauallison/react-native-tfl-notifications/badge.svg?branch=master
